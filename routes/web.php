@@ -62,6 +62,7 @@ Route::get('/alocar', function () {
         $proj->desenvolvedores()->attach([
             2 => ['horas_semanais' => 20],
             3 => ['horas_semanais' => 35],
+            //rafael
         ]);
     }
 });
